@@ -132,9 +132,7 @@ const Components = () => {
               <div
               className="p-5 flex items-center flex-wrap gap-20 "
             >
-              <BorderdButton title="Subscribe" bgColor="cyan"
-              textColor="white"
-              shadow="xl"
+              <BorderdButton title="Subscribe"
               />
               <Button />
               <DownloadButton />

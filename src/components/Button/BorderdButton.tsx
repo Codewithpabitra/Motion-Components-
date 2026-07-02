@@ -6,16 +6,16 @@ type shadow = "sm" | "md" | "lg" | "xl" | "2xl";
 
 interface buttonProps {
   title : string;
-  bgColor : buttonbgColor;
-  textColor: string;
-  shadow : shadow;
+  // bgColor : buttonbgColor;
+  // textColor: string;
+  // shadow : shadow;
 }
 
 const BorderdButton = ({
   title,
-  bgColor,
-  textColor,
-  shadow
+  // bgColor,
+  // textColor,
+  // shadow
 } : buttonProps) => {
 
   const [isDone, setIsDone] = useState<boolean>(false);
