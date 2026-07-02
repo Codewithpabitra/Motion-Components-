@@ -1,8 +1,8 @@
 import { AnimatePresence, easeInOut, motion } from "motion/react"
 import { useState } from "react";
 
-type buttonbgColor = "red" | "teal" | "cyan";
-type shadow = "sm" | "md" | "lg" | "xl" | "2xl";
+// type buttonbgColor = "red" | "teal" | "cyan";
+// type shadow = "sm" | "md" | "lg" | "xl" | "2xl";
 
 interface buttonProps {
   title : string;
