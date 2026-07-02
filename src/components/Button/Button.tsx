@@ -25,9 +25,9 @@ const Button = () => {
 
 const button = {
   width : 100,
-  height : 100,
+  height : 50,
   backgroundColor : "#9911ff",
-  borderRadius : 5,
+  borderRadius : 10,
   display : 'flex',
     justifyContent : 'center',
     alignItems : 'center',

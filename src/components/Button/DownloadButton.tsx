@@ -1,6 +1,6 @@
 import {motion} from "motion/react";
 
-const downloadButton = () => {
+const DownloadButton = () => {
   return (
     <motion.div
     initial={{
@@ -32,4 +32,4 @@ const downloadButton = () => {
   );
 };
 
-export default downloadButton;
+export default DownloadButton;
